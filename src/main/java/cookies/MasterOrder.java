@@ -17,7 +17,7 @@ public class MasterOrder {
         orders.add(theOrder);
     }
 
-    public int getTotalBoxes() { /*cnt declair variabes in the for lop*/
+    public int getTotalBoxes() {
         int total = 0;
         for (CookieOrder order : orders) {
             total += order.getNumberOfBoxes();
